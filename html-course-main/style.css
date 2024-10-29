@@ -1,0 +1,15 @@
+p:hover  {
+    background-color: yellow;
+}
+#slide {  
+    display: flex;
+    justify-content: space-around;
+  }
+  nav {  
+    display: flex;
+    justify-content: space-around;
+  }
+  nav.hyperlink:hover {
+    color: aqua;
+    background-color: blueviolet;
+  }
