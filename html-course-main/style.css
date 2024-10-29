@@ -4,12 +4,16 @@ p:hover  {
 #slide {  
     display: flex;
     justify-content: space-around;
-  }
-  nav {  
+}
+nav {  
     display: flex;
     justify-content: space-around;
-  }
-  nav.hyperlink:hover {
-    color: aqua;
+}
+a:hover {
     background-color: blueviolet;
-  }
+    color: aqua;
+}
+a {
+    color: white;
+    background-color: black;
+}
